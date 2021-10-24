@@ -1,38 +1,285 @@
 .App {
   text-align: center;
+  background: linear-gradient(#F2F2F2,#E8EAF6);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-covid{
+  width: 500px;
+  height: 500px;
+ margin-left: -50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-saglik{
+  height:100px;
+  width: 100px;
+  margin-left:150px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+.App-yazi1{
+  margin-left:-570px ;
+  margin-top: -100px;
+  font-size: 20px;
+  position:absolute;
+  color: red;
 }
 
-.App-link {
-  color: #61dafb;
+.App-yazi2{
+  margin-left:270px ;
+  margin-top: -75px;
+  font-size: 20px;
+  position: absolute;
+}
+.App-yazi3{
+  margin-top:-80px;
+  margin-left: 1400px;
+  position: absolute;
+}
+.App-covidresmi{
+  height: 50px;
+  width: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table{
+  color: black;
 }
+td,th{
+  border:0.02px solid #dcdcdc;
+  height: 100px;
+  width: 10000px;
+}
+
+.App-tablo{
+  margin: 30px;
+  margin-right: 30px;
+}
+
+.App-satir2{
+  background-color: #BFBDB8;
+}
+.App-satir3{
+  background-color: #F2F0EB;
+}
+
+footer{
+  background-color:rgb(179, 206, 204);
+  height: 120px;
+  margin-top: 51px;
+
+}
+.App-mer{
+  text-align: center;
+  padding-top:12px ;
+  font-size: 17px;
+}
+
+.Anasayfa{
+  text-align: center;
+  margin-left: 480px;
+}
+
+
+.App-satir1{
+  background-color: white;
+}
+
+.anaa{
+  width: 1748px;
+  margin-left:-40px;
+}
+
+
+
+.div{
+  background-color: white;
+  height: 1000px;
+  width: 1360px;
+  margin: auto;
+  text-align: center;
+  border-radius:12px 12px 12px 12px;
+}
+.h2{
+  height: 24px;
+  width: 443px;
+}
+span{
+height: 14px;
+width: 97px;
+}
+.span{
+  margin-left: 55px;
+}
+
+.sss{
+  background-color: white;
+  height: 320px ;
+  width: 1100px ;
+  text-align: center;
+  margin: auto;
+  border-radius: 12px 12px 12px 12px;
+}
+.skc{
+  font-size: 50px;
+  height: 50px;
+  width: 680px;
+  margin-left: 127px;
+  margin-left: 40px;
+  background-color: white;
+}
+
+.ssss{
+  height: 20px;
+  width: 300px;
+  margin-left: -125px;
+}
+.button{
+  margin-left: -150px;
+  height: 50px;
+  width: 680px;
+  margin-top: 150px;
+}
+.sssss{
+  font-size: 25px;
+  text-align: left;
+}
+.cizgi{
+  color: black;
+  margin-top: 0px;
+}
+
+.cızgı{
+  margin-left: -50px
+}
+
+.skcc{
+  margin-left: -335px;
+  margin-top: 50px;
+}
+
+.rs1{
+  width: 1500px;
+}
+
+.div1{
+  border-radius: 12px 12px 12px 12px ;
+  margin-left:94px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #ffff;
+  background-color: #2F9E82;
+  width: 1500px;
+  height: 100px;
+}
+.div2{
+  border-radius: 12px 12px 12px 12px;
+  margin:auto;
+  text-align: center;
+  background-color: #2F9E82;
+  color: #ffff;
+  width: 1500px;
+  height: 40px
+}
+
+.div2-yazi1{
+  font-size: 25px;
+  text-align: left;
+  margin-left: 25px;
+  
+}
+.div2-yazi2{
+  font-size: 20px;
+  text-align: right;
+  margin-left: 25px;
+  margin-top: -40px;
+  margin-right: 10px;
+  
+}
+
+.div1-yazi1{
+  font-size:20px;
+  text-align: left;
+  margin-left: 50px;
+
+}
+.div1-yazi2{
+  font-size:60px;
+  text-align: left;
+  margin-top: -30px;
+  margin-left: 150px;
+}
+.div1-yazi3{
+  font-size:20px;
+  text-align: left;
+  margin-top: -100px;
+  margin-left: 500px;
+}
+.div1-yazi4{
+  font-size:60px;
+  text-align: left;
+  margin-top: -30px;
+  margin-left: 600px;
+}
+.div1-yazi5{
+  font-size:20px;
+  text-align: right;
+  margin-top: -100px;
+  margin-right: 550px;
+}
+.div1-yazi6{
+  font-size:60px;
+  text-align: right;
+  margin-top: -30px;
+  margin-right: 450px;
+}
+.div1-yazi7{
+  font-size:20px;
+  text-align: right;
+  margin-top: -97px;
+  margin-right: 250px;
+}
+.div1-yazi8{
+  font-size:60px;
+  text-align: right;
+  margin-top: -30px;
+  margin-right: 50px;
+}
+.div3{
+  width:1400px;
+  height: 35px;
+  background-color: #ffff;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+.div4{
+  width:1400px;
+  height: 35px;
+  background-color: #ffff;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+.h3yazi{
+  color: #118AE4;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 50px;
+}
+.h3yazi2{
+  color: #EC8019;
+  font-size: 20px;
+  text-align: left; 
+  margin-left: 50px;
+
+}
+.b1{
+  color: #F7DA0E;
+  font-size: 20px;
+  
+}
+
+
+
+
